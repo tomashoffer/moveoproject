@@ -86,7 +86,6 @@ const UserDetails = () => {
         <GoogleMap />
         </div>
         ) }
-        
         </div>
      );
 }

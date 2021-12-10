@@ -7,6 +7,7 @@ import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import Spinner from "./Spinner/Spinner";
 import {useNavigate} from "react-router-dom";
+import Footer from './Footer'
 
 const ListOfUsers = () => {
 
@@ -141,6 +142,7 @@ getData()
                     <Pagination count={10} currentpage={currentpage} onChange={handleChange} className="pagination" />
                 </Stack>
             </div>
+            <Footer/>
         </>
      );
 }
