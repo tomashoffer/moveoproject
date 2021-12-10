@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.titles{
+   text-align: center;
+   margin: "50px"
+}
+
+.links{
+  color: #fff
+}
+
+/* LIST OF USERS */
+
+.pagination{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 20px;
+}
+
+.map{
+  width: 60%;
+}
+
+
